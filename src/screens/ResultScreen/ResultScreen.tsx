@@ -500,7 +500,7 @@ export default function ResultScreen(): JSX.Element {
             aria-live="polite"
             onClick={() => {
               setShowCelebrationBubble(false);
-              navigate("/lesson/translate");
+              navigate("/lesson/complete");
             }}
           >
             <div className="relative rounded-2xl border border-gray-200 bg-white px-4 py-3 shadow-lg">
