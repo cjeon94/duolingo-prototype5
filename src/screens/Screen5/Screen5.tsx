@@ -13,7 +13,7 @@ const COLORS = {
 };
 
 const IconOne = () => (
-  <img src="/one.svg" alt="one" className="w-16 h-16 object-contain" />
+  <img src="/1.png" alt="one" className="w-16 h-16 object-contain" />
 );
 
 const IconMan = () => (

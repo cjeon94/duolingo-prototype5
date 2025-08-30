@@ -481,7 +481,9 @@ export default function ResultScreen(): JSX.Element {
                 className="absolute left-1/2 top-[23%] -translate-x-1/2 z-50 animate-celebration-bubble cursor-pointer"
                 aria-live="polite"
                 onClick={() => {
-                  navigate("/lesson/complete");
+                  setShowSecondBubble(false);
+                  setShowOverlay(false);
+                  navigate("/lesson/translate");
                 }}
               >
                 <div className="relative rounded-2xl border border-gray-200 bg-white px-4 py-3 shadow-lg">
@@ -500,7 +502,7 @@ export default function ResultScreen(): JSX.Element {
             aria-live="polite"
             onClick={() => {
               setShowCelebrationBubble(false);
-              navigate("/lesson/complete");
+              navigate("/lesson/translate");
             }}
           >
             <div className="relative rounded-2xl border border-gray-200 bg-white px-4 py-3 shadow-lg">
